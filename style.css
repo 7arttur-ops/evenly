@@ -1683,13 +1683,15 @@ button:hover {
   animation-play-state: paused !important;
 }
 
-/* FLORES */
+/* FLOR 4 (igual a 2, só muda posição) */
 .flower--4 {
-  left: 15%;
-  z-index: 50;
+  left: 25%;
+  transform: rotate(20deg);
+  animation: moving-flower-2 4s linear infinite;
 }
 
+/* FLOR 5 (igual a 3, só muda posição) */
 .flower--5 {
-  left: 85%;
-  z-index: 55;
-}
+  left: 75%;
+  transform: rotate(-15deg);
+  animation: moving-flower-3 4s linear infinite;
