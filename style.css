@@ -1686,10 +1686,10 @@ button:hover {
 /* FLORES */
 .flower--4 {
   left: 15%;
-  z-index: 20;
+  z-index: 50;
 }
 
 .flower--5 {
   left: 85%;
-  z-index: 20;
+  z-index: 55;
 }
