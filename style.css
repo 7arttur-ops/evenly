@@ -1690,3 +1690,14 @@ button:hover {
   left: 80%;
   transform: rotate(-10deg);
 }
+.flower--4 {
+  left: 20%;
+  transform: rotate(10deg);
+  animation: moving-flower-2 4s linear infinite;
+}
+
+.flower--5 {
+  left: 80%;
+  transform: rotate(-10deg);
+  animation: moving-flower-3 4s linear infinite;
+}
